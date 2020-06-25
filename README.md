@@ -13,3 +13,20 @@ class Solution:
                 print(List)
                 return True
             # look and see if that number is appering in the list
+
+
+# day 3 challange
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
+        for len(l1):
+            l1.append(l2)
+            if l1[x] > l2[x]:
+                l1[x].append(l2[x])
+            else:
+                l2[x].append(l1[x])
+                
